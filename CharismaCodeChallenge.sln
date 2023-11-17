@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{684F2A65-B79F-44B1-8F13-C969E886748C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charisma.CodeChallenge.Domain", "src\core\Charisma.CodeChallenge.Domain\Charisma.CodeChallenge.Domain.csproj", "{B2A9252B-7C5E-41A7-AA31-0CF518453AD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charisma.CodeChallenge.Application", "src\core\Charisma.CodeChallenge.Application\Charisma.CodeChallenge.Application.csproj", "{4388A3B1-75A1-4DF0-A99E-3D4F3047515A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{17A75DF3-6798-456D-980C-931BA9CC8EB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charisma.CodeChallenge.Persistence", "src\infrastructure\Charisma.CodeChallenge.Persistence\Charisma.CodeChallenge.Persistence.csproj", "{00EEC1F7-BA91-4897-ABBE-85A844FF3D42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{0DAD1376-88FE-4F42-8641-11F8262B4536}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Core.Contracts", "src\shared\Shared.Core.Contracts\Shared.Core.Contracts.csproj", "{E36829DD-8E56-404B-9E9B-A02C6ABECE02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Core.Infrastructure", "src\shared\Shared.Core.Infrastructure\Shared.Core.Infrastructure.csproj", "{B3F85EF0-5D96-4216-9B2A-C7415B879B76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{1A7308A3-318D-48F3-8521-DDB914A81151}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charisma.CodeChallenge.Api", "src\api\Charisma.CodeChallenge.Api\Charisma.CodeChallenge.Api.csproj", "{D64FD268-BD4E-4CA0-A0E2-DB948E912F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D65C437-FEF5-43E7-92D9-DCE2B685DDB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Charisma.CodeChallenge.Tests", "src\tests\Charisma.CodeChallenge.Tests\Charisma.CodeChallenge.Tests.csproj", "{FE343628-BE87-4B77-8257-36A10C4EEECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2A9252B-7C5E-41A7-AA31-0CF518453AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A9252B-7C5E-41A7-AA31-0CF518453AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A9252B-7C5E-41A7-AA31-0CF518453AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9252B-7C5E-41A7-AA31-0CF518453AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4388A3B1-75A1-4DF0-A99E-3D4F3047515A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4388A3B1-75A1-4DF0-A99E-3D4F3047515A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4388A3B1-75A1-4DF0-A99E-3D4F3047515A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4388A3B1-75A1-4DF0-A99E-3D4F3047515A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EEC1F7-BA91-4897-ABBE-85A844FF3D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EEC1F7-BA91-4897-ABBE-85A844FF3D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EEC1F7-BA91-4897-ABBE-85A844FF3D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EEC1F7-BA91-4897-ABBE-85A844FF3D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36829DD-8E56-404B-9E9B-A02C6ABECE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36829DD-8E56-404B-9E9B-A02C6ABECE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36829DD-8E56-404B-9E9B-A02C6ABECE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36829DD-8E56-404B-9E9B-A02C6ABECE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F85EF0-5D96-4216-9B2A-C7415B879B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F85EF0-5D96-4216-9B2A-C7415B879B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F85EF0-5D96-4216-9B2A-C7415B879B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F85EF0-5D96-4216-9B2A-C7415B879B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64FD268-BD4E-4CA0-A0E2-DB948E912F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64FD268-BD4E-4CA0-A0E2-DB948E912F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64FD268-BD4E-4CA0-A0E2-DB948E912F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64FD268-BD4E-4CA0-A0E2-DB948E912F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE343628-BE87-4B77-8257-36A10C4EEECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE343628-BE87-4B77-8257-36A10C4EEECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE343628-BE87-4B77-8257-36A10C4EEECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE343628-BE87-4B77-8257-36A10C4EEECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{684F2A65-B79F-44B1-8F13-C969E886748C} = {28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}
+		{B2A9252B-7C5E-41A7-AA31-0CF518453AD9} = {684F2A65-B79F-44B1-8F13-C969E886748C}
+		{4388A3B1-75A1-4DF0-A99E-3D4F3047515A} = {684F2A65-B79F-44B1-8F13-C969E886748C}
+		{17A75DF3-6798-456D-980C-931BA9CC8EB5} = {28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}
+		{00EEC1F7-BA91-4897-ABBE-85A844FF3D42} = {17A75DF3-6798-456D-980C-931BA9CC8EB5}
+		{0DAD1376-88FE-4F42-8641-11F8262B4536} = {28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}
+		{E36829DD-8E56-404B-9E9B-A02C6ABECE02} = {0DAD1376-88FE-4F42-8641-11F8262B4536}
+		{B3F85EF0-5D96-4216-9B2A-C7415B879B76} = {0DAD1376-88FE-4F42-8641-11F8262B4536}
+		{1A7308A3-318D-48F3-8521-DDB914A81151} = {28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}
+		{D64FD268-BD4E-4CA0-A0E2-DB948E912F97} = {1A7308A3-318D-48F3-8521-DDB914A81151}
+		{8D65C437-FEF5-43E7-92D9-DCE2B685DDB0} = {28D15F9E-CE81-4D1D-A9EA-741BCEAE1B41}
+		{FE343628-BE87-4B77-8257-36A10C4EEECE} = {8D65C437-FEF5-43E7-92D9-DCE2B685DDB0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\Shared.Core.Contracts\Shared.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Charisma.CodeChallenge.Domain\Charisma.CodeChallenge.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
